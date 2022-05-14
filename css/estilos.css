@@ -1,0 +1,54 @@
+body{
+	background-image: url(../img/background.jpg);
+}
+
+.netflix{
+	width: 140px;
+	height: 250px;
+	position: relative;
+	margin-left: 50%;
+	transform: translate(-50%);
+	background: linear-gradient(90deg, #b1060e 0, #b1060e 50px, transparent 50px, transparent 90px, #b1060e 90px, #b1060e 140px);
+}
+
+.netflix::before,
+.netflix::after{
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.netflix::before{
+	width: 50px;
+	height: 250px;
+	top: 0;
+	left: 45px;
+	background-color: #e50914;
+	transform: skew(19.6deg);
+	box-shadow: 0 0 30px black;
+}
+
+
+.netflix::after{
+	width: 190px;
+	height: 25px;
+	top: 245px;
+	left: -25px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#Rodape{
+    display: contents;
+    text-align: center;
+    text-align: justify;
+    text-shadow: none;
+}
+   
+#Rodape .content{
+    padding: 1em;
+    background-color: 0;
+    color: chartreuse;
+    margin: 0.1em;
+    border-radius: 0.3em;
+}
